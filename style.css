@@ -16,7 +16,7 @@
 
 .main {
     width: 375px;
-    height: 750px;
+    height: 770px;
     background-color: #F4F4F4;
     border-radius: 20px;
     display: block;
@@ -94,7 +94,7 @@ button:active {
 
 .moedas {
     width: 327px;
-    height: 276px;
+    height: 316px;
     border-radius: 20px;
     border: 1px solid #772FD3;
     margin: 36px 24px 23px 24px;
@@ -132,4 +132,8 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 18px;
+}
+
+.vetor {
+    margin: 15px;
 }
