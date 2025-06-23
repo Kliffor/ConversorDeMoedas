@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #8A51FC;
+    font-family: "Roboto", sans-serif;
+}
+
+.hends {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+.main {
+    width: 375px;
+    height: 750px;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    padding-top: 44px;
+}
+
+
+.moedas {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    background-color: #F4F4F4;
+    margin: 36px 24px 23px 24px;
+}
+
+label {
+    color: #777777;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    background-color: #F4F4F4;
+    margin-left: 24px;
+}
+
+.in, .out, .value {
+    border: none;
+    width: 327px;
+    height: 48px;
+    background-color: #F4F4F4;
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    display: block;
+    margin-left: 24px;
+    margin-top: 6px;
+}
+
+.in {
+    margin: 68px, 24px 0 24px;
+}
+
+button {
+    width: 327px;
+    height: 48px;
+    border-radius: 5px;
+    background: #772FD3;
+    display: block;
+    margin: auto;
+    margin-top: 23px;
+    border-style: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+button:hover {
+    background-color: #6A1DBF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    opacity: 0.9;
+}
+
+button:active {
+    background-color: #5A0F9B;
+    transition: background-color 0.1s ease;
+}
+
+.moedas {
+    width: 327px;
+    height: 276px;
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+    margin: 36px 24px 23px 24px;
+    padding: 20px;
+
+}
+
+input::placeholder {
+    color: #555555;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    padding-left: 11px;
+}
+
+.moedas img, p{
+    background-color: #F4F4F4;
+}
+
+p {
+    color: #555;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.p_real, p_value {
+    color: #777777;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
