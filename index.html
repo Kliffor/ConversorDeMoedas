@@ -18,12 +18,15 @@
             <input class="in" type="text" id="input-text" placeholder="R$ Real brasileiro"><br>
         </label><br>
 
-        <label>Converter para
-            <input class="out" type="text" id="output-text" placeholder="US$ Dólar americano"><br>
-        </label><br>
-       
-        
-
+        <label>Converter para</label><br>
+            <select class="cur_select" name="text">
+                <option value="opcao1" placeholder="Selecione uma moeda">Selecione uma moeda</option>
+                <option value="opcao1" placeholder="US$ Dólar americano">US$ Dólar americano</option>
+                <option value="opcao1" placeholder="Euro">€ Euro</option>
+                <option value="opcao1" placeholder="BitCoin">Bit Coin</option>
+                <option value="opcao1" placeholder="Libra">£ Libra</option>   
+            </select><br>
+               
         <label class="text-value">Valor:</label><br>
         <input class="value" type="text" placeholder="R$ 10.000,00"><br>
 
@@ -36,7 +39,7 @@
 
             <img class="vetor" src="img/Vector.png" alt=""><br>
 
-            <img src="img/dolar.png" alt="moeda-eua">
+            <img class="img_currency" src="img/dolar.png" alt="moeda-eua">
 
             <p class="p_dolar">Dólar Americano</p>
             <p class="cur_dolar" onclick="convert()">US$ 2.000,00</p>
