@@ -14,16 +14,20 @@
     <img class="hends" src="./img/logo 1.png" alt="logo-troca">
     <div class="main">
 
-        <label >Converter de</label><br>     
-        <input class="in" type="text" id="input-text" placeholder="R$ Real brasileiro"><br>
+        <label >Converter de     
+            <input class="in" type="text" id="input-text" placeholder="R$ Real brasileiro"><br>
+        </label><br>
 
-        <label>Converter para</label><br>
-        <input class="out" type="text" id="output-text" placeholder="USD Dólar americano"><br>
+        <label>Converter para
+            <input class="out" type="text" id="output-text" placeholder="US$ Dólar americano"><br>
+        </label><br>
+       
+        
 
         <label class="text-value">Valor:</label><br>
         <input class="value" type="text" placeholder="R$ 10.000,00"><br>
 
-        <button class="btn" onclick="click()">Converter</button><br>
+        <button class="btn" onclick="convert()">Converter</button><br>
 
         <div class="moedas">
             <img src="img/brasil 2.png" alt="moeda-brasil">
@@ -34,8 +38,8 @@
 
             <img src="img/dolar.png" alt="moeda-eua">
 
-            <p class="p_real">Dólar Americano</p>
-            <p class="p_value">US$ 2.000,00</p>
+            <p class="p_dolar">Dólar Americano</p>
+            <p class="cur_dolar" onclick="convert()">US$ 2.000,00</p>
         </div>
     </div>
 

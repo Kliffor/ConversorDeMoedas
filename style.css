@@ -125,7 +125,7 @@ p {
     line-height: 18px;
 }
 
-.p_real, p_value {
+.p_real, p_value, .p_dolar {
     color: #777777;
     font-family: Roboto;
     font-size: 14px;
