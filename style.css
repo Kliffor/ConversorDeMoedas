@@ -4,6 +4,7 @@
     box-sizing: border-box;
     background-color: #8A51FC;
     font-family: "Roboto", sans-serif;
+    outline: none;
 }
 
 .hends {

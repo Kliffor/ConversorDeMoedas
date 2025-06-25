@@ -37,21 +37,21 @@ function convert() {
 
   if (select_currency.value === "opcao1") {
     p_value.innerHTML = input.value;
-    cur_dolar.innerHTML = input.value * dolar;
+    cur_dolar.innerHTML = input.value / dolar;
   }
   if (select_currency.value === "opcao2") {
     p_value.innerHTML = input.value;
-    cur_dolar.innerHTML = input.value * euro;
+    cur_dolar.innerHTML = input.value / euro;
   }
 
   if (select_currency.value === "opcao3") {
     p_value.innerHTML = input.value;
-    cur_dolar.innerHTML = input.value * bitcoin;
+    cur_dolar.innerHTML = input.value / bitcoin;
   }
 
   if (select_currency.value === "opcao4") {
     p_value.innerHTML = input.value;
-    cur_dolar.innerHTML = input.value * libra;
+    cur_dolar.innerHTML = input.value / libra;
   }
 }
 button.addEventListener("click", convert);
